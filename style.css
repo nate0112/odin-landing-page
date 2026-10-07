@@ -84,9 +84,59 @@ ul {
     padding: 60px 100px;
 }
 
+.quote blockquote {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .quote figcaption {
+    max-width: 800px;
+    margin: 0 auto;
     text-align: right;
     font-size: 24px;
     font-style: normal;
     font-weight: bold;
+}
+
+.cta {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 900;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+}
+
+.cta-hook {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.cta-sub {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.cta .register-button {
+    border: 2px solid white;
+}
+
+footer {
+    display: flex;
+    height: 75px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+a {
+    color: lightslategray;
+    text-decoration: none;
 }
